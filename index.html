@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analizador AFD</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Analizador AFD</h1>
+    <div class="container">
+        <div class="content">
+            <div class="main-content">
+                <div class="card">
+                    <form>
+                        <div class="form-group">
+                            <label for="fileInput">Selecciona un archivo XML:</label>
+                            <input type="file" class="form-control-file" id="fileInput" accept=".xml">
+                        </div>
+                        <div class="form-group">
+                            <label for="inputString">Ingresa una cadena para analizar:</label>
+                            <input type="text" class="form-control" id="inputString" placeholder="Ingresa una cadena" required>
+                        </div>
+                        <button type="button" class="btn-analyze" onclick="analyzeString()">Analizar Cadena</button>
+                    </form>
+                    <div id="result" class="mt-3 text-center"></div>
+                </div>
+                <div class="description">
+                    <h3>¿Qué es un Autómata?</h3>
+                    <p>Un autómata es un modelo matemático de un sistema que recibe una entrada y produce una salida determinada. En teoría de la computación, los autómatas finitos deterministas (AFD) son máquinas de estado que reconocen patrones en cadenas de símbolos.</p>
+                    <p>Características clave:</p>
+                    <ul>
+                        <li>Estados finitos</li>
+                        <li>Alfabeto de entrada</li>
+                        <li>Función de transición</li>
+                        <li>Estado inicial</li>
+                        <li>Estados de aceptación</li>
+                    </ul>
+                    <p>Los AFD son fundamentales en el diseño de compiladores, procesamiento de texto y verificación de protocolos.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

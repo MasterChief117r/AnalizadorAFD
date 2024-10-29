@@ -31,15 +31,15 @@ h1 {
 
 .content {
     display: flex;
-    justify-content: center; /* Centra el contenido horizontalmente */
+    justify-content: center; 
     align-items: flex-start;
     margin-top: 50px;
 }
 
 .main-content {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Dos columnas iguales */
-    gap: 20px; /* Espacio entre .card y .description */
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px; 
     width: 100%;
 }
 
@@ -51,7 +51,7 @@ h1 {
 }
 
 .description {
-    background-color: #111111; /* Si quieres un fondo diferente */
+    background-color: #111111; 
     border-radius: 10px;
     padding: 30px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);

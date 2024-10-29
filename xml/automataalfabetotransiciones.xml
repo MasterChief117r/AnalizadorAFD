@@ -1,0 +1,24 @@
+<AUTOMATA_AFD>
+    <ALFABETO>
+        <SIMBOLO>a</SIMBOLO>
+        <SIMBOLO>b</SIMBOLO>
+    </ALFABETO>
+    <ESTADO>
+        <NUMERO>0</NUMERO>
+        <NUMERO>1</NUMERO>
+        <NUMERO>2</NUMERO>
+    </ESTADO>
+    <INICIAL>
+        <NUMERO>0</NUMERO>
+    </INICIAL>
+    <FINAL>
+        <NUMERO>1</NUMERO>
+        <NUMERO>2</NUMERO>
+    </FINAL>
+    <TRANSICIONES>
+        <TRANSICION>0,a,1</TRANSICION>
+        <TRANSICION>0,b,2</TRANSICION>
+        <TRANSICION>1,a,1</TRANSICION>
+        <TRANSICION>2,b,2</TRANSICION>
+    </TRANSICIONES>
+</AUTOMATA_AFD>
